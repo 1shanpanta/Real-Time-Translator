@@ -11,9 +11,6 @@
         "src": "/(.*)",
         "dest": "/index.js"
       }
-    ],
-    "env": {
-      "GROQ_API_KEY": "@groq-api-key"
-    }
+    ]
   }
   
