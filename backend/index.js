@@ -10,6 +10,7 @@ app.use(express.json());
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
 
+
 app.post('/translate', async (req, res) => {
   const { text } = req.body;
 
