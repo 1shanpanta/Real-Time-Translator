@@ -10,7 +10,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
 
   // The URL of your deployed backend server on Vercel
-  const BACKEND_URL = '';
+  const BACKEND_URL = 'https://real-time-translator-mu.vercel.app/';
 
   const translateText = async (text) => {
     if (!text) {
